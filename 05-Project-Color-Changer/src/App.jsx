@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
@@ -6,16 +6,20 @@ function App() {
   const [redColor, setRed] = useState(0);
   const [greenColor, setGreen] = useState(0);
   const [blueColor, setBlue] = useState(0);
-  const [alphaColor, setAlphaColor] = useState(0);
+  const [alphaColor, setAlphaColor] = useState(100);
 
-  useEffect(() => {
+  let makeColors = useCallback(() => {
     let red = redColor;
     let green = greenColor;
     let blue = blueColor;
     let alpha = alphaColor / 100;
     let combine = `rgba(${red},${green},${blue},${alpha})`;
     setColor(combine);
-  }, [redColor, greenColor, blueColor, alphaColor, setColor]);
+  }, [setColor, redColor, greenColor, blueColor, alphaColor]);
+
+  useEffect(() => {
+    makeColors();
+  }, [redColor, greenColor, blueColor, alphaColor, makeColors]);
 
   return (
     <>
