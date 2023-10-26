@@ -5,7 +5,7 @@
 - BG Changer with (useState).
 - Password Generator with (useState, useCallback, useEffect).
 - Color Generator with (useState, useCallback, useEffect).
-- Currency Convertor - Pending.
+- Currency Convertor - (Custom hooks, API's, Reusable Components)
 
 # Learning Resourse.
 
