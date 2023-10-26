@@ -1,0 +1,12 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": " Hack,Hartwell, SF Mono, Operator Mono, Menlo, JetBrains Mono, Dank Mono, Cousine, Cascadia Mono,Anonymous Pro, Fira Code, Roboto Mono, Martian Mono,Azeret Mono, Cascadia Code",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.fontSize": 12,
+  "editor.tokenColorCustomizations": {
+    "comments": "#ffffff",
+  }
+}
