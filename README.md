@@ -6,6 +6,7 @@
 - Password Generator with (useState, useCallback, useEffect).
 - Color Generator with (useState, useCallback, useEffect).
 - Currency Convertor - (Custom hooks, API's, Reusable Components)
+- React Router DOM, Outlet, Loader etc.
 
 # Learning Resourse.
 
